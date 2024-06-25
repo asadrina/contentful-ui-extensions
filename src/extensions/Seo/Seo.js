@@ -82,7 +82,7 @@ const Seo = ({ sdk }) => {
           selected={selected === 'general'}
           onSelect={() => setSelected('general')}
           testId="Seo-tab-general">
-          General
+          Generall
         </Tab>
         <Tab
           id="facebook"
