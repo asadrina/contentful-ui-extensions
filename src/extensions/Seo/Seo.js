@@ -212,10 +212,10 @@ const Seo = ({ sdk }) => {
               : get(seoObject, 'canonical.value')
           }
           countCharacters
-          className="fieldset"
+          className="fieldset notranslate"
         />
-        <FieldGroup className="fieldset">
-          <FormLabel className="fieldset" htmlFor="robots">
+        <FieldGroup className="fieldset notranslate">
+          <FormLabel className="fieldset notranslate" htmlFor="robots">
             Would you like this content to be indexed by search engines?
           </FormLabel>
           <RadioButtonField
