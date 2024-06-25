@@ -205,7 +205,7 @@ const Seo = ({ sdk }) => {
             onKeyPress: (e) => onFieldChangeDebounce(e.currentTarget),
             onBlur: (e) => onFieldChange(e.currentTarget),
             testId: 'Seo-tabpanel-general-canonical',
-            className="notranslate",
+            className: 'notranslate',
           }}
           value={
             isEmpty(get(seoObject, 'canonical.value'))
@@ -229,7 +229,7 @@ const Seo = ({ sdk }) => {
             inputProps={{
               onBlur: (e) => onFieldChange(e.currentTarget),
               testId: 'Seo-tabpanel-general-robots-true',
-              className="notranslate"
+              className: 'notranslate'
             }}
           />
           <RadioButtonField
@@ -242,7 +242,7 @@ const Seo = ({ sdk }) => {
             inputProps={{
               onBlur: (e) => onFieldChange(e.currentTarget),
               testId: 'Seo-tabpanel-general-robots-false',
-              className="notranslate"
+              className: 'notranslate'
             }}
           />
         </FieldGroup>
